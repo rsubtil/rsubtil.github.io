@@ -1,0 +1,115 @@
+baseURL = 'https://ev1lbl0w.github.io'
+languageCode = 'en-us'
+title = 'Ricardo Subtil'
+
+enableRobotsTXT = true
+enableEmoji = true
+
+# Syntax highlighting by Chroma. NOTE: Don't enable `highlightInClient` and `chroma` at the same time!
+pygmentsOptions = "linenos=table"
+pygmentsCodefences = true
+pygmentsUseClasses = true
+pygmentsCodefencesGuessSyntax = true
+
+[author]                  # essential
+  name = "ev1lbl0w"
+
+[sitemap]                 # essential
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[[menu.main]]             # config your menu
+  name = "Home"
+  weight = 10
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "Posts"
+  weight = 20
+  identifier = "posts"
+  url = "/posts/"
+[[menu.main]]
+  name = "Projects"
+  weight = 40
+  identifier = "projects"
+  url = "/projects/"
+
+[params]
+  since = "2021"            # Site creation time
+
+  # site info (optional)
+  logoTitle = "Ricardo Subtil"
+  description = "My personal website"
+
+  # paginate of archives, tags and categories
+  archivePaginate = 7
+
+  # show 'xx Posts In Total' in archive page ?
+  showArchiveCount = true
+
+  # The date format to use; for a list of valid formats, see https://gohugo.io/functions/format/
+  dateFormatToUse = "02/01/2006"
+
+  # Syntax highlighting by highlight.js
+  highlightInClient = false
+
+  # Some global options, you can also close or open something in front matter for a single post, see more information from `archetypes/default.md`.
+  toc = true
+  autoCollapseToc = true   # Auto expand and collapse toc
+
+  postMetaInFooter = true   # contain author, lastMod, markdown link, license
+  contentCopyright = ''     # e.g. '<a rel="license noopener" href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank">CC BY-NC-ND 4.0</a>'
+
+  uglyURLs = false          # please keep same with uglyurls setting
+
+  [params.publicCDN]        # load these files from public cdn
+    enable = false
+    jquery = '<script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>'
+    slideout = '<script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>'
+
+  # Display a message at the beginning of an article to warn the readers that it's content may be outdated.
+  [params.outdatedInfoWarning]
+    enable = true
+    hint = 30               # Display hint if the last modified time is more than these days ago.
+    warn = 180              # Display warning if the last modified time is more than these days ago.
+
+  [params.social.normal]
+    [[params.social.normal.a-github]]
+      link = "https://github.com/ev1lbl0w"
+      fontClass = "fab"
+      icon = "github"
+      title = "GitHub"
+    [[params.social.normal.b-gitlab]]
+      link = "https://gitlab.com/Ev1lbl0w"
+      fontClass = "fab"
+      icon = "gitlab"
+      title = "GitLab"
+    [[params.social.normal.c-twitter]]
+      link = "https://twitter.com/RicardoSubtil"
+      fontClass = "fab"
+      icon = "twitter"
+      title = "Twitter"
+  [params.social.important]
+    [[params.social.important.a-linkedin]]
+      link = "https://www.linkedin.com/in/ricardo-subtil/"
+      fontClass = "fab"
+      icon = "linkedin"
+      title = "LinkedIn"
+    [[params.social.important.b-email]]
+      link = "mailto:ricasubtil@gmail.com"
+      fontClass = "fas"
+      icon = "envelope"
+      title = "Email"
+    [[params.social.important.c-cv]]
+      link = "/cv/cv.pdf"
+      fontClass = "fas"
+      icon = "file-alt"
+      title = "CV"
+
+# see https://gohugo.io/getting-started/configuration-markup
+[markup]
+  [markup.tableOfContents]
+    startLevel = 1
+  [markup.goldmark.renderer]
+    unsafe = true

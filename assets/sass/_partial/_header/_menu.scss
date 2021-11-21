@@ -1,0 +1,32 @@
+// ==============================
+// Menu
+// =============================
+
+.site-navbar {
+  float: right;
+
+  .menu {
+    display: inline-block;
+    position: relative;
+    padding-left: 0;
+    font-family: $global-font-family;
+
+    .menu-item {
+      & + .menu-item {
+        margin-left: $menu-item-margin-left;
+      }
+
+      @include underline-from-center;
+    }
+
+    .menu-item-link {
+      font-size: $menu-link-font-size;
+    }
+  }
+}
+
+@include max-screen() {
+  .site-navbar {
+    display: none;
+  }
+}

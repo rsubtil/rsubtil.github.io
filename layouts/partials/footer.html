@@ -1,0 +1,37 @@
+<div class="social-links">
+  {{- range $key, $links := .Site.Params.social.normal }}
+      {{- range $links }}
+      <a href="{{ .link | safeURL }}" class="social-link {{ .fontClass }} fa-2x fa-{{ .icon }}" title="{{ .title }}"></a>
+      {{- end }}
+  {{- end }}
+  <span class="vertical-bar"></span>
+  {{- range $key, $links := .Site.Params.social.important }}
+    {{- range $links }}
+    <a href="{{ .link | safeURL }}" class="social-link {{ .fontClass }} fa-2x fa-{{ .icon }}" title="{{ .title }}"></a>
+    {{- end }}
+  {{- end }}
+  <span class="vertical-bar"></span>
+  <a href="{{ .Site.RSSLink }}" type="application/rss+xml" class="social-link fas fa-2x fa-rss" title="RSS Feed"></a>
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    Powered by <a class="hexo-link" href="https://gohugo.io">Hugo</a>
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    Original theme - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <span class="copyright-year">
+    {{- $current := now.Format "2006" }}
+    &copy; 
+    {{ if ne .Site.Params.since $current -}}
+      {{ .Site.Params.since }} - 
+    {{ end }}
+    {{- $current -}}
+    <span class="heart"><i class="fas fa-heart"></i></span><!--
+    --><span>{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span>
+  </span>
+</div>

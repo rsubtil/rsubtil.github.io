@@ -1,0 +1,51 @@
+{{- define "title" }}Posts - {{ .Site.Title }}{{ end -}}
+
+{{- define "content" }}
+{{- $paginator := .Paginate .Data.Pages.ByDate.Reverse .Site.Params.archivePaginate }}
+<section id="archive" class="archive">
+  {{- if and (not $paginator.HasPrev) .Site.Params.showArchiveCount }}
+    <div class="archive-title">
+      <h1>Posts</h1>
+      <span class="archive-post-counter">
+        {{- (len .Data.Pages) }} {{ if (lt 1 (len .Data.Pages))}}posts{{else}}post{{end}} in total
+      </span>
+    </div>
+  {{- end -}}
+
+  {{- range $index, $element := $paginator.Pages -}}
+
+    <div class="archive-post">
+      <span class="archive-post-time">
+        {{ $element.Date.Format "Jan 02, 2006" }}
+      </span>
+      <span class="archive-post-title">
+        <a href="{{ $element.RelPermalink }}" class="archive-post-link">
+          {{ .Title }}
+          <p class="archive-post-summary">
+            {{ with .Description }}
+              {{ . }}
+            {{ else }}
+              {{ .Summary | truncate 250 }}
+            {{ end }}
+          </p>
+        </a>
+      </span>
+    </div>
+  {{- end -}}
+</section>
+<!-- pagination -->
+<nav class="pagination">
+  {{ with $paginator.Prev -}}
+    <a class="prev" href="{{ .URL }}">
+      <i class="fas fa-chevron-left"></i>
+      <span class="prev-text">Previous</span>
+    </a>
+  {{- end }}
+  {{ with $paginator.Next -}}
+    <a class="next" href="{{ .URL }}">
+      <span class="next-text">Next</span>
+      <i class="fas fa-chevron-right"></i>
+    </a>
+  {{- end }}
+</nav>
+{{- end }}

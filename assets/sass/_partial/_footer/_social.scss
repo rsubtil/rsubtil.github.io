@@ -1,0 +1,15 @@
+// ==============================
+// Social
+// =============================
+
+.social-links {
+  text-align: center;
+
+  .social-link {
+    margin-left: 0.50rem;
+
+    &:hover {
+      color: $theme-color;
+    }
+  }
+}
