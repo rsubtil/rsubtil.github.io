@@ -1,4 +1,4 @@
-baseURL = 'https://ev1lbl0w.github.io'
+baseURL = 'https://rsubtil.github.io'
 languageCode = 'en-us'
 title = 'Ricardo Subtil'
 
@@ -12,7 +12,7 @@ pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
 [author]                  # essential
-  name = "ev1lbl0w"
+  name = "rsubtil"
 
 [sitemap]                 # essential
   changefreq = "weekly"
@@ -76,7 +76,7 @@ pygmentsCodefencesGuessSyntax = true
 
   [params.social.normal]
     [[params.social.normal.a-github]]
-      link = "https://github.com/ev1lbl0w"
+      link = "https://github.com/rsubtil"
       fontClass = "fab"
       icon = "github"
       title = "GitHub"

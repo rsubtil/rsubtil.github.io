@@ -22,7 +22,7 @@ hideHeaderAndFooter: false
 
 # Hey :wave:
 ---
-I'm Ricardo Subtil, also known as `ev1lbl0w`. Welcome to my personal website!
+I'm Ricardo Subtil, also known as `rsubtil` (formerly `ev1lbl0w`). Welcome to my personal website!
 
 I'm a passionate developer, mostly interested in the area of game design and engine development, but I also have a keen interest in many more areas, such as low-level programming, eletronics, VR development, etc... I am always curious and eager to try out new ideas and/or projects.
 
