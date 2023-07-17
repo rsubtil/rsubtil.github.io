@@ -1,0 +1,18 @@
+{{ with .Get "name" }}
+{{ $listName := . }}
+<div class="main">
+	<ul id="og-grid" class="og-grid">
+		{{ $data := index $.Site.Data $listName }}
+		{{ range $data.items }}
+		<li>
+			<a href="{{.url}}" data-largesrc="{{.image}}" data-title="{{.title}}" data-description="{{.description }}"
+				data-buttontext="Visit Website" data-explanation="{{.explanation}}">
+				<img class="og-thumb" src="{{.thumb}}" alt="{{.alt}}">
+					<span class="og-thumb-overlay">{{.title}}</span>
+				</img>
+			</a>
+		</li>
+		{{ end }}
+	</ul>
+</div>
+{{ end }}

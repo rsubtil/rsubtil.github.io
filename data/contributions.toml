@@ -1,0 +1,9 @@
+[[items]]
+title = "Godot Engine"
+image = "/img/contributions/godot/full.jpg"
+thumb = "/img/contributions/godot/thumb.png"
+alt = "Godot Engine"
+description = "Cross-platform, free and open-source game engine released under the MIT license."
+url = "https://godotengine.org/"
+explanation = """Ocasionally help with issue triaging and bugfixing, whenever I have some time.<br><br>Implemented a major feature in 2021 as part of the <a href=\"https://summerofcode.withgoogle.com\">GSoC</a> program to <a href=\"https://summerofcode.withgoogle.com/archive/2021/projects/5851817010790400/\">bring DAP support to the editor</a>.
+"""

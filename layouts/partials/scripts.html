@@ -16,3 +16,10 @@
 {{ $main := resources.Get "js/main.js" }}
 {{ $js := slice $even $main | resources.Concat "js/main.js" | minify | fingerprint }}
 <script type="text/javascript" src="{{ $js.RelPermalink }}"></script>
+
+<script src="/lib/grid.js"></script>
+<script>
+  $(function () {
+    Grid.init();
+  });
+</script>

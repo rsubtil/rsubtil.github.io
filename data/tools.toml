@@ -1,0 +1,16 @@
+[[items]]
+title = "Extra Panel"
+image = "/img/tools/xPanel/full.png"
+thumb = "/img/tools/xPanel/thumb.png"
+alt = "Extra Panel"
+description = "A tool to interconnect your mobile devices to control various aspects of your PC, such as brightness, volume, music, etc…"
+url = "https://github.com/aurorafossorg/extrapanel-pc"
+explanation = "I’m currently no longer working on it. I still think it has potential, but currently don't have any time to explore it."
+[[items]]
+title = "Komorebi-Fork"
+image = "/img/tools/komorebi/full.jpg"
+thumb = "/img/tools/komorebi/thumb.png"
+alt = "Komorebi-Fork"
+description = "A fork of the original <a href=\"https://github.com/cheesecakeufo/komorebi\">komorebi</a> project, \"an awesome animated wallpapers manager for all Linux platforms\"."
+url = "https://github.com/Komorebi-Fork/komorebi"
+explanation = "Worked as a <a href=\"https://github.com/Komorebi-Fork\">team</a> to continue development with new features and quality-of-life improvements. No longer actively maintaining this project."

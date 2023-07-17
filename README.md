@@ -10,3 +10,4 @@ Feel free to use both code and contents however you see fit. If you have any sug
 
 - **[@ahonn](https://github.com/ahonn)** for it's cool [Even](https://github.com/ahonn/hexo-theme-even) theme *(which I've heavily modified for my liking)*, and **[@olowolo](https://github.com/olOwOlo)** for [porting it](https://github.com/olOwOlo/hugo-theme-even) to Hugo.
 - @xy2iii for it's clean and thoughtfully designed [old website](https://web.archive.org/web/20210831110824/https://xy2.dev/) which finally drove me to start my own
+- **[@aerohub](https://github.com/aerohub)** for [hugrid](https://github.com/aerohub/hugrid), a grid-view which I've adapted for the projects page.

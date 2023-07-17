@@ -1,0 +1,16 @@
+[[items]]
+title = "Project Uranium Godot"
+image = "/img/games/projectUranium/full.png"
+thumb = "/img/games/projectUranium/thumb.png"
+alt = "Project Uranium Godot"
+description = "A project to reimplement Pokémon Uranium in Godot."
+url = "https://github.com/acedogblast/Project-Uranium-Godot"
+explanation = "I joined initial development, mainly designing the dialogue system. I'm no longer actively contributing to the project."
+[[items]]
+title = "SynchroniCity"
+image = "/img/games/synchronicity/full.png"
+thumb = "/img/games/synchronicity/thumb.png"
+alt = "SynchroniCity"
+description = "Solve traffic problems in a busy city! You are a sophisticated AI tasked with fixing the traffic from this city! Prevent the chaos by changing traffic lights. It won't be easy, though!"
+url = "https://github.com/Ev1lbl0w/synchronicity"
+explanation = "This was a game done in 48h for the GMTK 2020 game jam made in Godot."
