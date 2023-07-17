@@ -80,11 +80,11 @@ pygmentsCodefencesGuessSyntax = true
       fontClass = "fab"
       icon = "github"
       title = "GitHub"
-    [[params.social.normal.b-gitlab]]
-      link = "https://gitlab.com/Ev1lbl0w"
+    [[params.social.normal.b-itchio]]
+      link = "https://rsubtil.itch.io/"
       fontClass = "fab"
-      icon = "gitlab"
-      title = "GitLab"
+      icon = "itch-io"
+      title = "Itch.io"
     [[params.social.normal.c-twitter]]
       link = "https://twitter.com/RicardoSubtil"
       fontClass = "fab"
