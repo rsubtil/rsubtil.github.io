@@ -11,7 +11,7 @@
     {{- end }}
   {{- end }}
   <span class="vertical-bar"></span>
-  <a href="{{ .Site.RSSLink }}" type="application/rss+xml" class="social-link fas fa-2x fa-rss" title="RSS Feed"></a>
+  <a href={{ with .OutputFormats.Get "RSS" }}{{ .RelPermalink }}{{ end }} type="application/rss+xml" class="social-link fas fa-2x fa-rss" title="RSS Feed"></a>
 </div>
 
 <div class="copyright">
