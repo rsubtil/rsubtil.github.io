@@ -1,6 +1,6 @@
 # rsubtil.github.io
 
-> *You have chosen, or been chosen, to investigate one of my finest remaining urban repositories. I thought so much of GitHub that I elected to establish my website here, with the CI so thoughtfully provided by our benefactors. I have been proud to call Github my host. And so, whether you are here to stay, or passing through on your way to projects unknown, welcome. It's safer here.*
+> *You have chosen, or been chosen, to investigate one of my finest remaining urban repositories. I thought so much of GitHub that I elected to establish my website here, with the CI so thoughtfully provided by our benefactors. I have been proud to call Github my host. And so, whether you are here to stay, or passing through on your way to projects unknown, welcome. [It's safer here.](https://www.youtube.com/watch?v=tOyNzDALz7k)*
 
 This is the source code of my website at [rsubtil.github.io](https://rsubtil.github.io/).
 
