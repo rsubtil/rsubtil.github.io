@@ -1,4 +1,20 @@
 [[items]]
+title = "Project Bacon"
+image = "/img/games/projectBacon/full.png"
+thumb = "/img/games/projectBacon/thumb.png"
+alt = "Project Bacon"
+description = "The cooks are crazy! They are after the little pigs for their evil recip-- uhh, plans! Luckily, you can count with the help of fellow farm animals, each with their unique quirks. Plan your defense, and combine the pigs in order to summon the super mega crazy pig that will crush all the pesky chefs!<br><br>Submission to the <a href=\"https://itch.io/jam/gdt-christmas-jam-2023/rate/2413687\">Christmas Jam 2023</a> internal jam at <a href=\"https://gamedev.tecnico.ulisboa.pt/\">GDT</a>."
+url = "https://footvaalvica.itch.io/project-bacon"
+explanation = "I was one of the main progreammers, and implemented the core gameplay of the game: the suika-style minigame combining pigs, and the tower-defense style animals, each with their own unique abilities."
+[[items]]
+title = "Quinta do Vale"
+image = "/img/games/quintaDoVale/full.jpg"
+thumb = "/img/games/quintaDoVale/thumb.jpg"
+alt = "Quinta do Vale"
+description = "This week you received a letter from a distant and mysterious relative. The letter informs you that you have inherited a farm, but it seems that things are not going too well there...<br><br>Get to work! With Pixel and your new neighbors, help bring the farm back to its splendor. Learn about sustainability, animals and their importance in the world while trying to manage all the components involved!"
+url = "https://play.google.com/store/apps/details?id=com.GameDevTecnico.QuintaDoVale"
+explanation = "I was mainly responsible for developing the glossary system, a tool to display different pieces of trivia and tips about the farm's animals, as well as the animal's information screen which has hidden information, uncovered by the player as it progresses through the game.<br><br>Other responsabilities included ensuring the game's UI scales properly to different screen sizes (phones and tablets), and with general troubleshooting/bug fixing."
+[[items]]
 title = "Mushrooms & Magic"
 image = "/img/games/mushroomsAndMagic/full.png"
 thumb = "/img/games/mushroomsAndMagic/thumb.png"

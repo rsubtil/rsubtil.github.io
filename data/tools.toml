@@ -1,10 +1,10 @@
 [[items]]
 title = "RetroHub"
-image = "/img/tools/retrohub/full.png"
+image = "/img/tools/retrohub/full.jpg"
 thumb = "/img/tools/retrohub/thumb.png"
 alt = "RetroHub"
 description = "Retrogaming library frontend, built to be a highly customizable platform."
-url = "https://github.com/retrohub-org/retrohub/"
+url = "https://retrohub-org.github.io/"
 explanation = "Currently working on it. The objective is to provide a simple, plug & play and intuitive platform for users to organize and play their retro-games, while creating a powerful platform for theme developers to create their own themes with much more freedom than current alternatives."
 [[items]]
 title = "Controller Icons"
