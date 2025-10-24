@@ -11,8 +11,9 @@ pygmentsCodefences = true
 pygmentsUseClasses = true
 pygmentsCodefencesGuessSyntax = true
 
-[author]                  # essential
+[params.author]                  # essential
   name = "rsubtil"
+  email = "ricasubtil@gmail.com"
 
 [sitemap]                 # essential
   changefreq = "weekly"
@@ -85,11 +86,11 @@ pygmentsCodefencesGuessSyntax = true
       fontClass = "fab"
       icon = "itch-io"
       title = "Itch.io"
-    [[params.social.normal.c-twitter]]
-      link = "https://twitter.com/RicardoSubtil"
+    [[params.social.normal.c-bluesky]]
+      link = "https://bsky.app/profile/rsubtil.bsky.social"
       fontClass = "fab"
-      icon = "twitter"
-      title = "Twitter"
+      icon = "bluesky"
+      title = "BlueSky"
   [params.social.important]
     [[params.social.important.a-linkedin]]
       link = "https://www.linkedin.com/in/ricardo-subtil/"

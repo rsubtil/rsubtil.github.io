@@ -32,6 +32,6 @@
     {{ end }}
     {{- $current -}}
     <span class="heart"><i class="fas fa-heart"></i></span><!--
-    --><span>{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Author.name | safeHTML }}{{ end }}</span>
+    --><span>{{if .Site.Copyright }}{{ .Site.Copyright | safeHTML }}{{ else }}{{ .Site.Params.Author.name | safeHTML }}{{ end }}</span>
   </span>
 </div>
